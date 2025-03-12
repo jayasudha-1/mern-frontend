@@ -15,7 +15,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:8000/chat", {
+      const response = await axios.post("https://mern-backend-naqj.onrender.com/chat", {
         userMessage: userMessage,
       });
 
